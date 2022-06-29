@@ -287,7 +287,7 @@ bool FPS::verify_sol()
 	return 0;
 }
 
-void FPS::simple_print(char* filename)
+void FPS::simple_print()
 {
   	if (best_soln_feasible != 0)
   	{

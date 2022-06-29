@@ -95,7 +95,7 @@ class FPS
 	int *sat_count;
 	int *sat_var;
  
-  int *sat_count2;
+  	int *sat_count2;
 	int *sat_var2;
  
 	long long *clause_selected_count;
@@ -125,8 +125,8 @@ class FPS
 	int goodvar_stack_fill_pointer;
 	int *already_in_goodvar_stack;
   
-  int *goodvar_stack2;
-  int goodvar_stack2_num;
+  	int *goodvar_stack2;
+  	int goodvar_stack2_num;
   
 	/* Information about solution */
 	int *cur_soln; //the current solution, with 1's for True variables, and 0's for False variables
@@ -160,9 +160,9 @@ class FPS
 	int* vars2; 
 	long long* scores; 
   
-  int sc_num; //number of sampled clauses
-  int sv_num; //BMS parameter for selecting the second-level variable
-  int selected_nums;
+  	int sc_num; //number of sampled clauses
+  	int sv_num; //BMS parameter for selecting the second-level variable
+  	int selected_nums;
   
 	//parameters used in algorithm
 	float rwprob;
@@ -196,7 +196,7 @@ class FPS
 	void build_instance(char *filename);
 	void local_search(char *inputfile);
 	void local_search_with_decimation(char *inputfile);
-	void simple_print(char* filename);
+	void simple_print();
 	void print_best_solution();
 	void free_memory();
 };

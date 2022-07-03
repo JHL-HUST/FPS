@@ -79,7 +79,12 @@ void FPS::build_neighbor_relation()
     int i, j, count;
     int v, c, n;
     int temp_neighbor_count;
-
+    
+    for (v = 1; v <= num_vars; ++v)
+    {
+        neighbor_flag[v] = 0;
+    } 
+    
     for (v = 1; v <= num_vars; ++v)
     {
         neighbor_flag[v] = 1;
@@ -170,7 +175,7 @@ void FPS::build_instance(char *filename)
     unit_clause_count = 0;
 
     int *redunt_test = new int[num_vars + 1];
-    memset(redunt_test, 0, sizeof(int) * num_vars + 1);
+    memset(redunt_test, 0, sizeof(int) * (num_vars + 1));
     //Now, read the clauses, one at a time.
     while (getline(infile, line))
     {

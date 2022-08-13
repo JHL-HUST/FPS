@@ -14,21 +14,21 @@ To run MaxFPS, you need to execute the following commands on a Unix/Linux machin
 
 cd MaxFPS <br>
 make <br>
-./MaxFPS *.wcnf <br> <br>
+./MaxFPS *.wcnf <br>
 
-The algorithms SATLike3.0, BandMaxSAT, Dist, Dist-FPS, BandMaxSAT-FPS can be run in the same way. <br> <br>
+The algorithms Dist-FPS and BandMaxSAT-FPS can be run in the same way. <br> <br>
 
-To run CCEHC-FPS or CCEHC, you need to execute the following commands on a Unix/Linux machine: <br>
+To run CCEHC-FPS, you need to execute the following commands on a Unix/Linux machine: <br>
 
-cd CCEHC-FPS (or cd CCEHC) <br>
+cd CCEHC-FPS <br>
 make <br>
-./CCEHC-FPS (or ./CCEHC) -inst *.wcnf -seed 1 -t 300 -p 0.2 -sp 0.0001 <br> <br>
+./CCEHC-FPS -inst *.wcnf -seed 1 -t 300 -p 0.2 -sp 0.0001 <br> <br>
 
-To run CCAnr-FPS or CCAnr, you need to execute the following commands on a Unix/Linux machine: <br>
+To run CCAnr-FPS, you need to execute the following commands on a Unix/Linux machine: <br>
 
-cd CCAnr-FPS (or cd CCAnr) <br>
+cd CCAnr-FPS <br>
 make <br>
-./CCAnr-FPS (or ./CCAnr) -inst *.cnf <br> <br>
+./CCAnr-FPS -inst *.cnf <br> <br>
 
 Contact
 ----

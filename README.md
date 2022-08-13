@@ -8,10 +8,10 @@ Installation
 ----
 The cut-off time for each (W)PMS (resp. SAT) algorithm is set to 300 (resp. 3600) seconds. <br>
 The random seed for each algorithm is set to 1 by default. <br>
-The parameters of these algorithms are their default settings. <br> <br> <br>
+The parameters of these algorithms are their default settings. <br> <br>
 
 
-To run MaxFPS, you need to execute the following commands on a Unix/Linux machine: <br> <br>
+To run MaxFPS, you need to execute the following commands on a Unix/Linux machine: <br>
 
 cd MaxFPS <br>
 make <br>
